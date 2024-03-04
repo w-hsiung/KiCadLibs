@@ -6,12 +6,12 @@
 	(descr "MP008281-4")
 	(tags "LED")
 	(property "Reference" "LED**"
-		(at 0 -3.81 0)
+		(at 0 -2.79 0)
 		(layer "F.SilkS")
 		(uuid "9a503927-d8c7-4420-90c8-c1253cb5bee8")
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.5 1.5)
 				(thickness 0.254)
 			)
 		)
@@ -66,26 +66,6 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -3 0)
-		(end -3 0)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "6380b85a-a451-4db3-b8b8-c07430fcaf2f")
-	)
-	(fp_line
-		(start -2.9 0)
-		(end -2.9 0)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "09016551-a19d-455d-8b25-ab986c5b53e3")
-	)
-	(fp_line
 		(start -0.6 -0.8)
 		(end 0.6 -0.8)
 		(stroke
@@ -105,27 +85,16 @@
 		(layer "F.SilkS")
 		(uuid "065b2667-5fe0-4cbe-9eb0-0e0e3308fd0a")
 	)
-	(fp_arc
-		(start -3 0)
-		(mid -2.95 -0.05)
-		(end -2.9 0)
+	(fp_circle
+		(center -2.95 0)
+		(end -2.65 0)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
+		(fill solid)
 		(layer "F.SilkS")
-		(uuid "4ccc493e-0cad-4673-a31c-29bfc4af1842")
-	)
-	(fp_arc
-		(start -2.9 0)
-		(mid -2.95 0.05)
-		(end -3 0)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "eb310e64-5acf-44e3-a951-4d68cffffd21")
+		(uuid "534bc88d-814f-403b-aa7e-107ac3853877")
 	)
 	(fp_line
 		(start -3.5 -1.8)
