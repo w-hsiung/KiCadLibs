@@ -248,7 +248,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HDRV5W90P0X254_1X5_1270X254X1174P"
+		(property "Footprint" "Connector_Custom:HDRV5W90P0X254_1X5_1270X254X1174P"
 			(at 16.51 2.54 0)
 			(effects
 				(font

@@ -6,7 +6,7 @@
 	(descr "2211S-05G")
 	(tags "Connector")
 	(property "Reference" "J**"
-		(at 5.08 -2.54 0)
+		(at 5.08 3.048 0)
 		(layer "F.SilkS")
 		(uuid "1c3e9999-5355-487f-8c62-5d68b92123b1")
 		(effects
@@ -37,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -49,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +63,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -104,6 +107,18 @@
 		)
 		(layer "F.SilkS")
 		(uuid "3b92b501-1f1f-4e0c-81fd-f3f582b6e673")
+	)
+	(fp_poly
+		(pts
+			(xy 0 2.032) (xy -1.016 3.175) (xy 1.016 3.175)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "2a7721eb-142d-426c-9f77-0a0aafbab1cd")
 	)
 	(fp_line
 		(start -1.695 -1.52)
