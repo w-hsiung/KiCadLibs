@@ -186,6 +186,15 @@
 				(hide yes)
 			)
 		)
+		(property "ki_keywords" "ssr, "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "G3VM-61VY3_0_0"
 			(rectangle
 				(start -7.62 10.16)
