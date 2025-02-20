@@ -1,290 +1,766 @@
-(kicad_symbol_lib (version 20220914) (generator kicad_symbol_editor)
-  (symbol "Banana" (in_bom yes) (on_board yes)
-    (property "Reference" "U" (at 0 -5.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "FUN" (at -5.08 -2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 0 -5.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 0 -5.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "Banana_0_1"
-      (circle (center -3.81 -5.08) (radius 1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (circle (center -3.81 0) (radius 1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -4.445 -5.08)
-          (xy -3.175 -5.08)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -4.445 0)
-          (xy -3.175 0)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -3.81 0.635)
-          (xy -3.81 -0.635)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-    )
-    (symbol "Banana_1_1"
-      (pin passive line (at 0 0 180) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -5.08 180) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "Interface_Block" (in_bom yes) (on_board yes)
-    (property "Reference" "INT" (at -2.54 5.08 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "" (at 0 0 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "Interface_Block_0_1"
-      (circle (center 0 -31.75) (radius 1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (circle (center 0 -25.4) (radius 1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (circle (center 0 -19.05) (radius 1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (circle (center 0 -12.7) (radius 1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (circle (center 0 -6.35) (radius 1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (circle (center 0 0) (radius 1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (circle (center 6.35 -31.75) (radius 1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (circle (center 6.35 -25.4) (radius 1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (circle (center 6.35 -19.05) (radius 1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (circle (center 6.35 -12.7) (radius 1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (circle (center 6.35 -6.35) (radius 1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (circle (center 6.35 0) (radius 1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (circle (center 12.7 -31.75) (radius 1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (circle (center 12.7 -25.4) (radius 1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (circle (center 12.7 -19.05) (radius 1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (circle (center 12.7 -12.7) (radius 1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (circle (center 12.7 -6.35) (radius 1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (circle (center 12.7 0) (radius 1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (circle (center 19.05 -31.75) (radius 1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (circle (center 19.05 -25.4) (radius 1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (circle (center 19.05 -19.05) (radius 1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (circle (center 19.05 -12.7) (radius 1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (circle (center 19.05 -6.35) (radius 1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (circle (center 19.05 0) (radius 1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-    )
-    (symbol "Interface_Block_1_1"
-      (rectangle (start -3.81 3.81) (end 22.86 -35.56)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (text "A1" (at 0 0 0)
-        (effects (font (size 1.15 1.15)))
-      )
-      (text "A2" (at 0 -6.35 0)
-        (effects (font (size 1.15 1.15)))
-      )
-      (text "A3" (at 0 -12.7 0)
-        (effects (font (size 1.15 1.15)))
-      )
-      (text "A4" (at 0 -19.05 0)
-        (effects (font (size 1.15 1.15)))
-      )
-      (text "A5" (at 0 -25.4 0)
-        (effects (font (size 1.15 1.15)))
-      )
-      (text "A6" (at 0 -31.75 0)
-        (effects (font (size 1.15 1.15)))
-      )
-      (text "B1" (at 6.35 0 0)
-        (effects (font (size 1.15 1.15)))
-      )
-      (text "B2" (at 6.35 -6.35 0)
-        (effects (font (size 1.15 1.15)))
-      )
-      (text "B3" (at 6.35 -12.7 0)
-        (effects (font (size 1.15 1.15)))
-      )
-      (text "B4" (at 6.35 -19.05 0)
-        (effects (font (size 1.15 1.15)))
-      )
-      (text "B5" (at 6.35 -25.4 0)
-        (effects (font (size 1.15 1.15)))
-      )
-      (text "B6" (at 6.35 -31.75 0)
-        (effects (font (size 1.15 1.15)))
-      )
-      (text "C1" (at 12.7 0 0)
-        (effects (font (size 1.15 1.15)))
-      )
-      (text "C2" (at 12.7 -6.35 0)
-        (effects (font (size 1.15 1.15)))
-      )
-      (text "C3" (at 12.7 -12.7 0)
-        (effects (font (size 1.15 1.15)))
-      )
-      (text "C4" (at 12.7 -19.05 0)
-        (effects (font (size 1.15 1.15)))
-      )
-      (text "C5" (at 12.7 -25.4 0)
-        (effects (font (size 1.15 1.15)))
-      )
-      (text "C6" (at 12.7 -31.75 0)
-        (effects (font (size 1.15 1.15)))
-      )
-      (text "D1" (at 19.05 0 0)
-        (effects (font (size 1.15 1.15)))
-      )
-      (text "D2" (at 19.05 -6.35 0)
-        (effects (font (size 1.15 1.15)))
-      )
-      (text "D3" (at 19.05 -12.7 0)
-        (effects (font (size 1.15 1.15)))
-      )
-      (text "D4" (at 19.05 -19.05 0)
-        (effects (font (size 1.15 1.15)))
-      )
-      (text "D5" (at 19.05 -25.4 0)
-        (effects (font (size 1.15 1.15)))
-      )
-      (text "D6" (at 19.05 -31.75 0)
-        (effects (font (size 1.15 1.15)))
-      )
-    )
-  )
-  (symbol "Test_Pin" (in_bom yes) (on_board yes)
-    (property "Reference" "TP" (at -1.27 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "TP" (at 6.35 0 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "test pin, tp, pin" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Test pin" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "Test_Pin_0_1"
-      (polyline
-        (pts
-          (xy -3.81 0.635)
-          (xy 2.54 0.635)
-          (xy 4.445 0)
-          (xy 2.54 -0.635)
-          (xy -3.81 -0.635)
-          (xy -3.81 0.635)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-    )
-    (symbol "Test_Pin_1_1"
-      (pin passive line (at -6.35 0 0) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
+(kicad_symbol_lib
+	(version 20241209)
+	(generator "kicad_symbol_editor")
+	(generator_version "9.0")
+	(symbol "Banana"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "FUN"
+			(at -5.08 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Banana_0_1"
+			(polyline
+				(pts
+					(xy -4.445 0) (xy -3.175 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.445 -5.08) (xy -3.175 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 0.635) (xy -3.81 -0.635)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -3.81 0)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -3.81 -5.08)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Banana_1_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Interface_Block"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "INT"
+			(at -2.54 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Interface_Block_0_1"
+			(circle
+				(center 0 0)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 -6.35)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 -12.7)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 -19.05)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 -25.4)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 -31.75)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 6.35 0)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 6.35 -6.35)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 6.35 -12.7)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 6.35 -19.05)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 6.35 -25.4)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 6.35 -31.75)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 12.7 0)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 12.7 -6.35)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 12.7 -12.7)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 12.7 -19.05)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 12.7 -25.4)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 12.7 -31.75)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 19.05 0)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 19.05 -6.35)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 19.05 -12.7)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 19.05 -19.05)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 19.05 -25.4)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 19.05 -31.75)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Interface_Block_1_1"
+			(rectangle
+				(start -3.81 3.81)
+				(end 22.86 -35.56)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "A1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(text "A2"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(text "A3"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(text "A4"
+				(at 0 -19.05 0)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(text "A5"
+				(at 0 -25.4 0)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(text "A6"
+				(at 0 -31.75 0)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(text "B1"
+				(at 6.35 0 0)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(text "B2"
+				(at 6.35 -6.35 0)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(text "B3"
+				(at 6.35 -12.7 0)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(text "B4"
+				(at 6.35 -19.05 0)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(text "B5"
+				(at 6.35 -25.4 0)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(text "B6"
+				(at 6.35 -31.75 0)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(text "C1"
+				(at 12.7 0 0)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(text "C2"
+				(at 12.7 -6.35 0)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(text "C3"
+				(at 12.7 -12.7 0)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(text "C4"
+				(at 12.7 -19.05 0)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(text "C5"
+				(at 12.7 -25.4 0)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(text "C6"
+				(at 12.7 -31.75 0)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(text "D1"
+				(at 19.05 0 0)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(text "D2"
+				(at 19.05 -6.35 0)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(text "D3"
+				(at 19.05 -12.7 0)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(text "D4"
+				(at 19.05 -19.05 0)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(text "D5"
+				(at 19.05 -25.4 0)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(text "D6"
+				(at 19.05 -31.75 0)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Test_Pin"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "TP"
+			(at -1.27 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "TP"
+			(at 6.35 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test pin"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "test pin, tp, pin"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Test_Pin_0_1"
+			(polyline
+				(pts
+					(xy -3.81 0.635) (xy 2.54 0.635) (xy 4.445 0) (xy 2.54 -0.635) (xy -3.81 -0.635) (xy -3.81 0.635)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Test_Pin_1_1"
+			(pin passive line
+				(at -6.35 0 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 )

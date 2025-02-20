@@ -1,7 +1,7 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(symbol "22-27-2041"
 		(pin_names
 			(offset 0.762)
@@ -204,6 +204,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "22-27-2051"
 		(pin_names
@@ -425,6 +426,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "22-27-2091"
 		(pin_names
@@ -718,6 +720,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "22-29-2061"
 		(pin_names
@@ -957,6 +960,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "22-29-2071"
 		(pin_names
@@ -1214,6 +1218,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "22-29-2081"
 		(pin_names
@@ -1489,6 +1494,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "53253-0970"
 		(pin_names
@@ -1782,6 +1788,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "MC34629"
 		(pin_names
@@ -1949,6 +1956,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "MC34631"
 		(pin_names
@@ -2134,5 +2142,6 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 )
