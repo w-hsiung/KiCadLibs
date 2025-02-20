@@ -1,7 +1,7 @@
 (footprint "SODFL2512X100N"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -0.268433 -1.378607 0)
@@ -21,18 +21,6 @@
 		(effects
 			(font
 				(size 0.640835 0.640835)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "8383e05a-51c2-46fd-916d-88e6735c49be")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -70,7 +58,7 @@
 			(width 0.01)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "c329318a-9b18-482f-b838-fa7e34ae2cc1")
 	)
@@ -137,17 +125,18 @@
 	(pad "1" smd rect
 		(at -1.4 0)
 		(size 1.05 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "43cb498d-e8da-46aa-80a4-3bd1121d459e")
 	)
 	(pad "2" smd rect
 		(at 1.4 0)
 		(size 1.05 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "c535395d-9b82-451c-8669-979453d75e71")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_3RD_PARTY}/3d/Semi_Custom/1N4148WS.step"
 		(offset
 			(xyz -1.4 -0.12 -0.1)

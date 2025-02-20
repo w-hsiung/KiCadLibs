@@ -1,7 +1,7 @@
 (footprint "CAPAE830X1100N"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "8 x 10.5")
 	(tags "Capacitor Polarised")
@@ -25,18 +25,6 @@
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "ef5fe60b-17e0-4c65-b16e-e52d5eb1f28c")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -259,15 +247,16 @@
 	(pad "1" smd rect
 		(at -3.55 0 90)
 		(size 2.2 3.85)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "452bd3c3-e2d2-4d5c-a3f4-62d848176a38")
 	)
 	(pad "2" smd rect
 		(at 3.55 0 90)
 		(size 2.2 3.85)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "165d408f-97a9-49c0-b511-e1ab52998a60")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_3RD_PARTY}/3d/Component_Custom/MCVVT050M101FB3L.stp"
 		(offset
 			(xyz 0 0 0)

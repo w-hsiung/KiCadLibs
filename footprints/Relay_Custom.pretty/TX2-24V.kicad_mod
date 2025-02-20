@@ -1,7 +1,7 @@
 (footprint "TX2-24V"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "TX2-24V")
 	(tags "Relay or Contactor")
@@ -25,19 +25,6 @@
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "14f33a02-f20f-41c6-91f2-e4aecca8845e")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -115,7 +102,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "2d5e3e96-f5cb-4975-bb0b-65dd0765f0e5")
 	)
@@ -294,6 +281,7 @@
 		(remove_unused_layers no)
 		(uuid "7b2aae40-e0e0-446c-abd0-3e896ef9ea87")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_3RD_PARTY}/3d/Relay_Custom/TX2-5V.stp"
 		(offset
 			(xyz 1.15 -2.54 -0.66)

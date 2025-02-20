@@ -1,7 +1,7 @@
 (footprint "MP008281"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "MP008281-4")
 	(tags "LED")
@@ -28,18 +28,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "db21a4ac-69a9-4e31-a6af-71baff64a9f3")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -49,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -92,7 +82,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "534bc88d-814f-403b-aa7e-107ac3853877")
 	)
@@ -190,15 +180,16 @@
 	(pad "1" smd rect
 		(at -1.75 0 90)
 		(size 1.5 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0d9bbc1f-3db7-4a5c-933b-8dae0de4bc81")
 	)
 	(pad "2" smd rect
 		(at 1.75 0 90)
 		(size 1.5 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0ec8365d-5bf7-4c3c-a680-dfd2e9c71120")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_3RD_PARTY}/3d/LED_Custom/MP008281.stp"
 		(offset
 			(xyz 0 0 0)

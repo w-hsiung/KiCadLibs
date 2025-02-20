@@ -1,7 +1,7 @@
 (footprint "CTB30512BK"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "CTB3051/2BK-2")
 	(tags "Connector")
@@ -25,18 +25,6 @@
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "48f4f8ee-03f7-4dd5-b6ce-f8755a084353")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -212,6 +200,7 @@
 		(remove_unused_layers no)
 		(uuid "ccb8ab2e-3639-468c-9d45-26d517f78ac2")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_3RD_PARTY}/3d/Connector_Custom/CTB3051_2BK.stp"
 		(offset
 			(xyz 1.75 -0.1 4.14)

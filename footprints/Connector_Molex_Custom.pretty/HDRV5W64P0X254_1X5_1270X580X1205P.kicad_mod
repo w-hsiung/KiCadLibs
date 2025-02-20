@@ -1,7 +1,7 @@
 (footprint "HDRV5W64P0X254_1X5_1270X580X1205P"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "22-27-2051")
 	(tags "Connector")
@@ -28,18 +28,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "8552d004-b421-4ea0-afa4-690c9ecb0f98")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -49,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -236,6 +226,7 @@
 		(remove_unused_layers no)
 		(uuid "d2dbd040-4ec0-46b6-8c1e-29a629ca0bd4")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_3RD_PARTY}/3d/Connector_Molex_Custom/22-27-2051.stp"
 		(offset
 			(xyz -5.08 0 0)

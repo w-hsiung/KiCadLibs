@@ -1,7 +1,7 @@
 (footprint "140817143200"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "OP**"
 		(at 0 -3.5 0)
@@ -20,19 +20,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "6744e115-80c7-4fb5-8d01-b2aabf63bd48")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at -0.1 8.3 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "6f1eeb8a-dd87-46bf-a7e8-6d843a64a555")
 		(effects
 			(font
 				(size 1 1)
@@ -124,7 +111,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "43b45b67-eea0-4e64-a2c5-0873cb7d6990")
 	)
@@ -183,31 +170,32 @@
 	(pad "1" smd rect
 		(at -4.575 -1.27)
 		(size 2 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "d483fe12-b96c-4b4e-b41e-1e219316a4d8")
 	)
 	(pad "2" smd rect
 		(at -4.575 1.27)
 		(size 2 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "3b07e427-3c58-42cf-b9b9-f5598723baa5")
 	)
 	(pad "3" smd rect
 		(at 4.575 1.27)
 		(size 2 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "aac6954c-197a-4e29-93aa-d7b3de439968")
 	)
 	(pad "4" smd rect
 		(at 4.575 -1.27)
 		(size 2 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "5dfd0167-bae6-4607-a470-d282114edda0")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_3RD_PARTY}/3d/Photocoupler/140817143200.step"
 		(offset
 			(xyz 0 0 1.8)

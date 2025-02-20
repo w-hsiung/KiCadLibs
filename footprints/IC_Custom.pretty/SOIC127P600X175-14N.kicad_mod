@@ -1,7 +1,7 @@
 (footprint "SOIC127P600X175-14N"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SOIC (14)")
 	(tags "Integrated Circuit")
@@ -28,18 +28,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "24a094e2-d889-4fe0-8c21-a729e30894b4")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -49,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -219,87 +209,88 @@
 	(pad "1" smd rect
 		(at -2.712 -3.81 90)
 		(size 0.65 1.525)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e89fd67d-d49f-49c2-8d7a-2bc6fe138ae8")
 	)
 	(pad "2" smd rect
 		(at -2.712 -2.54 90)
 		(size 0.65 1.525)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "292801cc-a0e8-41ae-bc0d-d127209ebe19")
 	)
 	(pad "3" smd rect
 		(at -2.712 -1.27 90)
 		(size 0.65 1.525)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a371e059-7eb3-4f22-b61f-234d1dd7ac02")
 	)
 	(pad "4" smd rect
 		(at -2.712 0 90)
 		(size 0.65 1.525)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "28306d42-7604-48f0-8e7d-8d02544561fd")
 	)
 	(pad "5" smd rect
 		(at -2.712 1.27 90)
 		(size 0.65 1.525)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "56bee2ec-e4d4-4655-9e48-ccfff5c289c0")
 	)
 	(pad "6" smd rect
 		(at -2.712 2.54 90)
 		(size 0.65 1.525)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0663d663-22a7-4559-b230-9fb9866e7451")
 	)
 	(pad "7" smd rect
 		(at -2.712 3.81 90)
 		(size 0.65 1.525)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "708e3a32-8b3c-4ead-84e8-48fb73b63f9e")
 	)
 	(pad "8" smd rect
 		(at 2.712 3.81 90)
 		(size 0.65 1.525)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "8c1a81db-7b96-4e8a-831e-5eec4b8aa030")
 	)
 	(pad "9" smd rect
 		(at 2.712 2.54 90)
 		(size 0.65 1.525)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "26f0e553-49f2-4685-9a6a-26b1e48578fa")
 	)
 	(pad "10" smd rect
 		(at 2.712 1.27 90)
 		(size 0.65 1.525)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a8fa35ea-69f7-4f47-ad4e-b8d80902dd13")
 	)
 	(pad "11" smd rect
 		(at 2.712 0 90)
 		(size 0.65 1.525)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5c19e3cd-3d57-4060-a873-d1e0ace92b21")
 	)
 	(pad "12" smd rect
 		(at 2.712 -1.27 90)
 		(size 0.65 1.525)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c41dd3e2-96ca-4b07-82ed-48fcaa8c70c1")
 	)
 	(pad "13" smd rect
 		(at 2.712 -2.54 90)
 		(size 0.65 1.525)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "73c37c8d-f41d-4d0f-b1ec-8f464bcf7c0f")
 	)
 	(pad "14" smd rect
 		(at 2.712 -3.81 90)
 		(size 0.65 1.525)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "21c9aa01-5c9f-4829-8320-f5f0b3858339")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_3RD_PARTY}/3d/IC_Custom/TCA9543ADR.stp"
 		(offset
 			(xyz 0 0 0)

@@ -1,7 +1,7 @@
 (footprint "HDRV5W90P0X254_1X5_1270X254X1174P"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "2211S-05G")
 	(tags "Connector")
@@ -25,19 +25,6 @@
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "ace41647-643c-4a8f-9abd-597ab782107c")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -116,7 +103,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "2a7721eb-142d-426c-9f77-0a0aafbab1cd")
 	)
@@ -251,6 +238,7 @@
 		(remove_unused_layers no)
 		(uuid "95ac38d5-693c-4f87-b23c-bda1c4da9a39")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_3RD_PARTY}/3d/Connector_Custom/2211S-05G.stp"
 		(offset
 			(xyz 0 0 0)

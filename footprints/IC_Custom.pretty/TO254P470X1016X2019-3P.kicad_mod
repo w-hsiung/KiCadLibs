@@ -1,7 +1,7 @@
 (footprint "TO254P470X1016X2019-3P"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "LM7805CT_A")
 	(tags "Transistor")
@@ -28,18 +28,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "616d1c56-781a-4173-a385-ecd233ef8646")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -49,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -220,6 +210,7 @@
 		(remove_unused_layers no)
 		(uuid "d0041608-da30-48a8-9fc7-c1d17f020892")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_3RD_PARTY}/3d/IC_Custom/LM7805CT.stp"
 		(offset
 			(xyz 0 0 0)

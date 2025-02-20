@@ -1,7 +1,7 @@
 (footprint "G3VM-61VY3"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Special SOP 4-pin")
 	(property "Reference" "REF**"
@@ -22,19 +22,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "cfa45cd6-e654-4bf3-9eb9-1f044b3f9c67")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -93,7 +80,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "f77b81a4-b86d-4c63-a3d0-3cce79548cc5")
 	)
@@ -184,38 +171,39 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "82d5572a-05c0-4668-ab81-ec56440b9643")
 	)
 	(pad "1" smd rect
 		(at -3.075 -1.27)
 		(size 1.2 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "fa3612a4-50dd-4bf9-91c7-e9f4dfc11ae0")
 	)
 	(pad "2" smd rect
 		(at -3.075 1.27)
 		(size 1.2 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "255bab55-9cd5-479e-bc7c-621bcaa0171b")
 	)
 	(pad "3" smd rect
 		(at 3.075 1.27)
 		(size 1.2 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "8f9a4c97-fc1e-42ce-a46f-80625ad48bb1")
 	)
 	(pad "4" smd rect
 		(at 3.075 -1.27)
 		(size 1.2 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "01f99732-95bd-460a-9c4c-9ac42acaf45b")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_3RD_PARTY}/3d/SSR_Custom/G3VM-61VY3.step"
 		(offset
 			(xyz 0 0 0)

@@ -1,7 +1,7 @@
 (footprint "BAT165AQX"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "BAT165A-QX")
 	(tags "Schottky Diode")
@@ -28,18 +28,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e67fa58d-3df5-45fd-ae19-0a1e4056b997")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -49,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -92,7 +82,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "4b1dce29-87fc-4aef-b75a-2ec4b81e638d")
 	)
@@ -190,15 +180,16 @@
 	(pad "1" smd rect
 		(at -1.45 0 90)
 		(size 1.2 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fff26ce4-38d8-4575-aeed-c43a7d1dc648")
 	)
 	(pad "2" smd rect
 		(at 1.45 0 90)
 		(size 1.2 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d207bf5c-30f3-4bc4-8fd9-b1cd90c38dbd")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_3RD_PARTY}/3d/Semi_Custom/BAT165A-QX.stp"
 		(offset
 			(xyz 0 0 0)
