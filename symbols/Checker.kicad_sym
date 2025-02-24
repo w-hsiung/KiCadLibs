@@ -670,6 +670,526 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "SB-T-MB-20/4-30A/PK3"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "INT"
+			(at -2.54 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SB-T-MB-20/4-30A/PK3"
+			(at 16.256 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SB-T-MB-20/4-30A/PK3_0_1"
+			(circle
+				(center 0 0)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 -6.35)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 -12.7)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 -19.05)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 6.35 0)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 6.35 -6.35)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 6.35 -12.7)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 6.35 -19.05)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 8.89 -26.67)
+				(radius 2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 8.89 -34.29)
+				(radius 2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 12.7 0)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 12.7 -6.35)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 12.7 -12.7)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 12.7 -19.05)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 16.51 -26.67)
+				(radius 2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 16.51 -34.29)
+				(radius 2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 19.05 0)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 19.05 -6.35)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 19.05 -12.7)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 19.05 -19.05)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 25.4 0)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 25.4 -6.35)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 25.4 -12.7)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 25.4 -19.05)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SB-T-MB-20/4-30A/PK3_1_1"
+			(rectangle
+				(start -3.81 3.81)
+				(end 29.21 -39.37)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "A1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(text "A2"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(text "A3"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(text "A4"
+				(at 0 -19.05 0)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(text "B1"
+				(at 6.35 0 0)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(text "B2"
+				(at 6.35 -6.35 0)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(text "B3"
+				(at 6.35 -12.7 0)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(text "B4"
+				(at 6.35 -19.05 0)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(text "A1"
+				(at 8.89 -26.67 0)
+				(effects
+					(font
+						(size 1.905 1.905)
+					)
+				)
+			)
+			(text "A2"
+				(at 8.89 -34.29 0)
+				(effects
+					(font
+						(size 1.905 1.905)
+					)
+				)
+			)
+			(text "C1"
+				(at 12.7 0 0)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(text "C2"
+				(at 12.7 -6.35 0)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(text "C3"
+				(at 12.7 -12.7 0)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(text "C4"
+				(at 12.7 -19.05 0)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(text "B1"
+				(at 16.51 -26.67 0)
+				(effects
+					(font
+						(size 1.905 1.905)
+					)
+				)
+			)
+			(text "B2"
+				(at 16.51 -34.29 0)
+				(effects
+					(font
+						(size 1.905 1.905)
+					)
+				)
+			)
+			(text "D1"
+				(at 19.05 0 0)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(text "D2"
+				(at 19.05 -6.35 0)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(text "D3"
+				(at 19.05 -12.7 0)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(text "D4"
+				(at 19.05 -19.05 0)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(text "E1"
+				(at 25.4 0 0)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(text "E2"
+				(at 25.4 -6.35 0)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(text "E3"
+				(at 25.4 -12.7 0)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(text "E4"
+				(at 25.4 -19.05 0)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "Test_Pin"
 		(exclude_from_sim no)
 		(in_bom yes)
