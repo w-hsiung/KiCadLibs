@@ -30,7 +30,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "MIKROBUS_HOST_CONN"
+		(property "Footprint" "mikroBUS:MIKROBUS_HOST_CONN"
 			(at 3.81 35.56 0)
 			(effects
 				(font
