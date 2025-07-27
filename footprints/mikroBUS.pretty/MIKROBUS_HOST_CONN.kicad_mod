@@ -23,7 +23,7 @@
 		(effects
 			(font
 				(size 4 3.5)
-				(thickness 0.15)
+				(thickness 0.2)
 			)
 		)
 	)
@@ -734,7 +734,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.05)
+				(thickness 0.16)
 			)
 			(justify left)
 		)
@@ -746,7 +746,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.05)
+				(thickness 0.16)
 			)
 			(justify left)
 		)
@@ -758,7 +758,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.05)
+				(thickness 0.16)
 			)
 			(justify right)
 		)
@@ -770,7 +770,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.05)
+				(thickness 0.16)
 			)
 			(justify right)
 		)
@@ -782,7 +782,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.05)
+				(thickness 0.16)
 			)
 			(justify left)
 		)
@@ -794,7 +794,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.05)
+				(thickness 0.16)
 			)
 			(justify left)
 		)
@@ -806,7 +806,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.05)
+				(thickness 0.16)
 			)
 			(justify right)
 		)
@@ -818,7 +818,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.05)
+				(thickness 0.16)
 			)
 			(justify right)
 		)
@@ -830,7 +830,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.05)
+				(thickness 0.16)
 			)
 			(justify right)
 		)
@@ -842,19 +842,19 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.05)
+				(thickness 0.16)
 			)
 			(justify left)
 		)
 	)
 	(fp_text user "mikro~{BUS}"
-		(at 11.2 -0.6 0)
+		(at 11.2 -0.254 0)
 		(layer "F.SilkS")
 		(uuid "aad803f1-6bc8-414f-a3e4-e103200ad037")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.05)
+				(thickness 0.16)
 			)
 		)
 	)
@@ -865,7 +865,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.05)
+				(thickness 0.16)
 			)
 			(justify right)
 		)
@@ -877,7 +877,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.05)
+				(thickness 0.16)
 			)
 			(justify right)
 		)
@@ -889,7 +889,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.05)
+				(thickness 0.16)
 			)
 			(justify left)
 		)
@@ -901,7 +901,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.05)
+				(thickness 0.16)
 			)
 			(justify left)
 		)
@@ -913,7 +913,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.05)
+				(thickness 0.16)
 			)
 			(justify left)
 		)
@@ -925,7 +925,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.05)
+				(thickness 0.16)
 			)
 			(justify right)
 		)
@@ -937,7 +937,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.05)
+				(thickness 0.16)
 			)
 			(justify left mirror)
 		)
@@ -949,7 +949,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.05)
+				(thickness 0.16)
 			)
 			(justify right mirror)
 		)
@@ -961,7 +961,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.05)
+				(thickness 0.16)
 			)
 			(justify right mirror)
 		)
@@ -973,7 +973,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.05)
+				(thickness 0.16)
 			)
 			(justify left mirror)
 		)
@@ -985,7 +985,7 @@
 		(effects
 			(font
 				(size 4 3.5)
-				(thickness 0.15)
+				(thickness 0.16)
 			)
 			(justify mirror)
 		)
@@ -997,7 +997,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.05)
+				(thickness 0.16)
 			)
 			(justify right mirror)
 		)
@@ -1009,7 +1009,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.05)
+				(thickness 0.16)
 			)
 			(justify left mirror)
 		)
@@ -1021,19 +1021,19 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.05)
+				(thickness 0.16)
 			)
 			(justify left mirror)
 		)
 	)
 	(fp_text user "mikro~{BUS}"
-		(at 11.2 -0.6 0)
+		(at 11.176 -0.254 0)
 		(layer "B.SilkS")
 		(uuid "5e11597d-99ab-4a4d-a11d-643254ee5526")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.05)
+				(thickness 0.16)
 			)
 			(justify mirror)
 		)
@@ -1045,7 +1045,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.05)
+				(thickness 0.16)
 			)
 			(justify right mirror)
 		)
@@ -1057,7 +1057,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.05)
+				(thickness 0.16)
 			)
 			(justify left mirror)
 		)
@@ -1069,7 +1069,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.05)
+				(thickness 0.16)
 			)
 			(justify left mirror)
 		)
@@ -1081,7 +1081,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.05)
+				(thickness 0.16)
 			)
 			(justify right mirror)
 		)
@@ -1093,7 +1093,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.05)
+				(thickness 0.16)
 			)
 			(justify left mirror)
 		)
@@ -1105,7 +1105,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.05)
+				(thickness 0.16)
 			)
 			(justify right mirror)
 		)
@@ -1117,7 +1117,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.05)
+				(thickness 0.16)
 			)
 			(justify right mirror)
 		)
@@ -1129,7 +1129,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.05)
+				(thickness 0.16)
 			)
 			(justify right mirror)
 		)
@@ -1141,7 +1141,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.05)
+				(thickness 0.16)
 			)
 			(justify left mirror)
 		)
