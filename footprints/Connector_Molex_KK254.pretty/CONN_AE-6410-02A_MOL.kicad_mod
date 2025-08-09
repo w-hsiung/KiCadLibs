@@ -5,14 +5,15 @@
 	(layer "F.Cu")
 	(tags "22272021 ")
 	(property "Reference" "REF**"
-		(at -1.27 0 0)
+		(at -1.27 -4.572 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "da26c966-dbe1-477b-910b-0bc07a41299d")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 		)
 	)
