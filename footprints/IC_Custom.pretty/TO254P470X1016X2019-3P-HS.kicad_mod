@@ -303,4 +303,26 @@
 			(xyz 0 180 0)
 		)
 	)
+	(model "${KICAD_USER_3DMODEL_DIR}/IC_Custom/M3-Screw-10mm.STEP"
+		(offset
+			(xyz 2.54 8.98 15.55)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
+	(model "${KICAD_USER_3DMODEL_DIR}/IC_Custom/M3-Nut.stp"
+		(offset
+			(xyz 2.54 4.62 15.55)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )
