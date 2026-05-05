@@ -291,7 +291,7 @@
 		(uuid "21c9aa01-5c9f-4829-8320-f5f0b3858339")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_3RD_PARTY}/3d/IC_Custom/TCA9543ADR.stp"
+	(model "${KICAD_USER_3DMODEL_DIR}/IC_Custom/TCA9543ADR.stp"
 		(offset
 			(xyz 0 0 0)
 		)

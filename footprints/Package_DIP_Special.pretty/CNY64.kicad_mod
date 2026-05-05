@@ -230,7 +230,7 @@
 		(uuid "c694c36b-20ab-400f-ba1a-fd6bfb3b1a2f")
 	)
 	(embedded_fonts no)
-	(model ":KICAD8_3RD_PARTY:3d/Package_DIP_Special.3dshapes/CNY64.STEP"
+	(model "${KICAD_USER_3DMODEL_DIR}/Package_DIP_Special.3dshapes/CNY64.STEP"
 		(offset
 			(xyz 0 -5.08 -3.1)
 		)

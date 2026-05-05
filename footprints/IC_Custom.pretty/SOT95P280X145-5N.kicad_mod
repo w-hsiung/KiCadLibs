@@ -237,7 +237,7 @@
 		(uuid "0c135680-c636-4b1f-a367-cc6c0cf6b102")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_3RD_PARTY}/3d/IC_Custom/MIC5317-3.3YM5-TR.stp"
+	(model "${KICAD_USER_3DMODEL_DIR}/IC_Custom/MIC5317-3.3YM5-TR.stp"
 		(offset
 			(xyz 0 0 0)
 		)

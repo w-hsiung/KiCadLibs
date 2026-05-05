@@ -190,7 +190,7 @@
 		(uuid "0ec8365d-5bf7-4c3c-a680-dfd2e9c71120")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_3RD_PARTY}/3d/LED_Custom/MP008281.stp"
+	(model "${KICAD_USER_3DMODEL_DIR}/LED_Custom/MP008281.stp"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -137,7 +137,7 @@
 		(uuid "c535395d-9b82-451c-8669-979453d75e71")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_3RD_PARTY}/3d/Semi_Custom/1N4148WS.step"
+	(model "${KICAD_USER_3DMODEL_DIR}/Semi_Custom/1N4148WS.step"
 		(offset
 			(xyz -1.4 -0.12 -0.1)
 		)

@@ -303,7 +303,7 @@
 		(uuid "f235245d-000d-4a9a-a7ab-3cc0550d8d9f")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_3RD_PARTY}/3d/IC_Custom/MAX3232ECDR.stp"
+	(model "${KICAD_USER_3DMODEL_DIR}/IC_Custom/MAX3232ECDR.stp"
 		(offset
 			(xyz 0 0 0)
 		)

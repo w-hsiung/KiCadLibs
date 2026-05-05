@@ -204,7 +204,7 @@
 		(uuid "01f99732-95bd-460a-9c4c-9ac42acaf45b")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_3RD_PARTY}/3d/SSR_Custom/G3VM-61VY3.step"
+	(model "${KICAD_USER_3DMODEL_DIR}/SSR_Custom/G3VM-61VY3.step"
 		(offset
 			(xyz 0 0 0)
 		)

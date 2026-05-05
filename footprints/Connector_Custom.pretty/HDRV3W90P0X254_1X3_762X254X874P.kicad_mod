@@ -211,7 +211,7 @@
 		(uuid "0065a0f5-3257-47d2-b228-38404a164605")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_3RD_PARTY}/3d/Connector_Custom/2211S-03G.stp"
+	(model "${KICAD_USER_3DMODEL_DIR}/Connector_Custom/2211S-03G.stp"
 		(offset
 			(xyz 0 0 0)
 		)

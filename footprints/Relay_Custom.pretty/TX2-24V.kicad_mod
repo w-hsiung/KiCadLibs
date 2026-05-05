@@ -282,7 +282,7 @@
 		(uuid "7b2aae40-e0e0-446c-abd0-3e896ef9ea87")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_3RD_PARTY}/3d/Relay_Custom/TX2-5V.stp"
+	(model "${KICAD_USER_3DMODEL_DIR}/Relay_Custom/TX2-5V.stp"
 		(offset
 			(xyz 1.15 -2.54 -0.66)
 		)

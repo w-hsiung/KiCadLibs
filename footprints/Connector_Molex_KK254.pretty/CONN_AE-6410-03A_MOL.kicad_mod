@@ -244,7 +244,7 @@
 		(uuid "24fdfe5d-2ba9-4579-b831-554b01a48646")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_3RD_PARTY}/3d/Connector_Molex_KK254/0022272031.stp"
+	(model "${KICAD_USER_3DMODEL_DIR}/Connector_Molex_KK254/0022272031.stp"
 		(offset
 			(xyz -2.54 0 1.6)
 		)

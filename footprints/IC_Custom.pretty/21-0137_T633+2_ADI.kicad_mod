@@ -321,7 +321,7 @@
 		(uuid "96c333e8-96e1-4bd6-acbd-dfddd723fcaa")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_3RD_PARTY}/3d/IC_Custom/21-0137_T6332_ADI.step"
+	(model "${KICAD_USER_3DMODEL_DIR}/IC_Custom/21-0137_T6332_ADI.step"
 		(offset
 			(xyz 0 0 0)
 		)

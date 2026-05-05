@@ -241,7 +241,7 @@
 		(uuid "828d7dca-d82a-483b-a236-e8af1e2342aa")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_3RD_PARTY}/3d/Component_Custom/TEST-1-White-468060.STEP"
+	(model "${KICAD_USER_3DMODEL_DIR}/Component_Custom/TEST-1-White-468060.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -257,7 +257,7 @@
 		(uuid "165d408f-97a9-49c0-b511-e1ab52998a60")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_3RD_PARTY}/3d/Component_Custom/MCVVT050M101FB3L.stp"
+	(model "${KICAD_USER_3DMODEL_DIR}/Component_Custom/MCVVT050M101FB3L.stp"
 		(offset
 			(xyz 0 0 0)
 		)

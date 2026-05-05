@@ -327,7 +327,7 @@
 		(uuid "3f4154db-1cc1-4aa3-9d88-f4b8f998262e")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_3RD_PARTY}/3d/IC_Custom/ULN2803CDWR.stp"
+	(model "${KICAD_USER_3DMODEL_DIR}/IC_Custom/ULN2803CDWR.stp"
 		(offset
 			(xyz 0 0 0)
 		)

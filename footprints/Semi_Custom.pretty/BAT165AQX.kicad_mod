@@ -190,7 +190,7 @@
 		(uuid "d207bf5c-30f3-4bc4-8fd9-b1cd90c38dbd")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_3RD_PARTY}/3d/Semi_Custom/BAT165A-QX.stp"
+	(model "${KICAD_USER_3DMODEL_DIR}/Semi_Custom/BAT165A-QX.stp"
 		(offset
 			(xyz 0 0 0)
 		)

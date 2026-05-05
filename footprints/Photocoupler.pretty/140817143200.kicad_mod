@@ -196,7 +196,7 @@
 		(uuid "5dfd0167-bae6-4607-a470-d282114edda0")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_3RD_PARTY}/3d/Photocoupler/140817143200.step"
+	(model "${KICAD_USER_3DMODEL_DIR}/Photocoupler/140817143200.step"
 		(offset
 			(xyz 0 0 1.8)
 		)

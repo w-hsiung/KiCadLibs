@@ -241,7 +241,7 @@
 		(uuid "59e28d5e-d5b2-4d62-b9b3-5dc55dee843d")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_3RD_PARTY}/3d/Component_Custom/TEST-1-Orange-468060.step"
+	(model "${KICAD_USER_3DMODEL_DIR}/Component_Custom/TEST-1-Orange-468060.step"
 		(offset
 			(xyz 0 0 0)
 		)
