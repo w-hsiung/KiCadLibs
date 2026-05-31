@@ -1626,7 +1626,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Panasonic Relay DPDT, 5V, 28.1mA, 178Ω"
+		(property "Description" "Panasonic Relay DPDT, 6V, 23.3mA, 257Ω"
 			(at 31.75 -8.89 0)
 			(effects
 				(font
