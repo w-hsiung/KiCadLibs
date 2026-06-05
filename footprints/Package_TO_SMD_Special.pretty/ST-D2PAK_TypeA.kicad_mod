@@ -1,0 +1,178 @@
+(footprint "ST-D2PAK_TypeA"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "D2PAK-STB35NF10T4")
+	(tags "Integrated Circuit")
+	(property "Reference" "IC**"
+		(at 1.753 5.174 0)
+		(layer "F.SilkS")
+		(uuid "f168fa46-389b-4760-9965-f3f0fc4cf5b6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "ST-D2PAK_TypeA"
+		(at 1.753 5.174 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4e50631a-b5b1-4533-879d-82b587215587")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f40c53fe-c67a-49b3-9e31-6ad9b97de384")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "61364892-6a00-4f88-9e69-43ae7b685c96")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0 0)
+		(end -1.644 0)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3496cae3-a881-43a7-943e-7aab532879a0")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 10.2)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "14ac8213-9951-40be-b3f9-e95a7bba0c2c")
+	)
+	(fp_line
+		(start 0 10.2)
+		(end -1.535 10.2)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "29b93676-f069-479a-a431-57320ec02ab5")
+	)
+	(fp_circle
+		(center 4.603 9.449)
+		(end 4.603 9.668)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "81ae8fb6-1755-4885-bfef-50280e226976")
+	)
+	(fp_line
+		(start -9.15 0)
+		(end 0 0)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bf94ebd5-5fe2-4ad6-aa2a-8f37561cf2f9")
+	)
+	(fp_line
+		(start -9.15 10.2)
+		(end -9.15 0)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "48d217ef-5af4-4ff6-90cb-8f628cd5b11d")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 10.2)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5e1add82-5504-4842-a756-ec9da988dd8a")
+	)
+	(fp_line
+		(start 0 10.2)
+		(end -9.15 10.2)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "60dd1400-b538-413e-8199-36281750fbb6")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.753 5.174 0)
+		(layer "F.Fab")
+		(uuid "26b0fc1c-a4bf-4082-bd7a-8a4b35c9773f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 2.904 7.64 90)
+		(size 1.6 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9c6abac6-f624-4bad-b139-0ba4160ed2ee")
+	)
+	(pad "2" smd rect
+		(at -7.371 5.1)
+		(size 9.75 12.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "44bcc262-b1c6-42b4-8e37-7950920e1326")
+	)
+	(pad "3" smd rect
+		(at 2.904 2.56 90)
+		(size 1.6 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ca1a76f1-ec9d-485d-9de1-2d3b0b192eab")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_3DMODEL_DIR}/Package_SO_SMD_Special/ST-D2PAK_TypeA.stp"
+		(offset
+			(xyz -5.4 -5.08 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+)
