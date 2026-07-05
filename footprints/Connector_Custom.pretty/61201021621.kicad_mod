@@ -3,8 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "5 contacts, 2.5mm Header, Right Angle")
-	(tags "connector, header, right angle, neltron")
+	(descr "10 contacts, 2 Rows, 2.54mm Header, Vertical")
+	(tags "connector, header, vertical")
 	(property "Reference" "J**"
 		(at 5.08 5.08 0)
 		(layer "F.SilkS")
