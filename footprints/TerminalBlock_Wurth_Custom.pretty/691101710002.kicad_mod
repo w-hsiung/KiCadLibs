@@ -1,0 +1,348 @@
+(footprint "691101710002"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Terminal Block Wire to Board 2 Position Horizontal with Board 5.00mm Through Hole")
+	(tags "wurth, terminal, block")
+	(property "Reference" "REF**"
+		(at 0 -6.435 0)
+		(layer "F.SilkS")
+		(uuid "f536f829-797a-4b91-b108-8e4ab571c9ae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "691101710002"
+		(at 4.12 5.365 0)
+		(layer "F.Fab")
+		(uuid "7f8037c9-8600-422d-909e-91e6c4e800bb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4f4fbcce-eccf-404c-9f03-e2ba57fc7934")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Terminal Block Wire to Board 2 Position Horizontal with Board 5.00mm Through Hole"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "016d58fb-0aa8-40ea-96f1-e89eae9142da")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.7 0.8)
+		(end -5.1 1.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "192c5469-3fd6-4fe1-a5a5-356185dddd2f")
+	)
+	(fp_line
+		(start -5.7 2.2)
+		(end -5.7 0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0a989dab-60e8-4ad2-b56b-8f64e3907cbe")
+	)
+	(fp_line
+		(start -5.1 -5.1)
+		(end 5.1 -5.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "844b42ee-0071-4f57-aa7b-ceb0ea823480")
+	)
+	(fp_line
+		(start -5.1 1.05)
+		(end -5.1 -5.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b6069c02-e83f-4f16-b549-759fa8ca312e")
+	)
+	(fp_line
+		(start -5.1 1.9)
+		(end -5.7 2.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "acef3d3f-612e-4b14-ae30-a38bf7c48988")
+	)
+	(fp_line
+		(start -5.1 4.1)
+		(end -5.1 1.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "41eaae66-cdb2-4667-ae6a-448f58101a3a")
+	)
+	(fp_line
+		(start 5.1 -5.1)
+		(end 5.1 -4.15)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9107c814-dc16-4331-89a0-577b2f54bfcc")
+	)
+	(fp_line
+		(start 5.1 -4.15)
+		(end 5.7 -4.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7beac3cd-cd1d-4f1d-9bf3-2d342935353d")
+	)
+	(fp_line
+		(start 5.1 -3.25)
+		(end 5.1 4.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "af3139e3-66e2-4a64-999f-d7d4d93a3d69")
+	)
+	(fp_line
+		(start 5.1 4.1)
+		(end -5.1 4.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e765ddf6-ce8d-4b22-a70c-b9ef553bf410")
+	)
+	(fp_line
+		(start 5.7 -4.4)
+		(end 5.7 -3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cc3b5299-e1ec-4422-8ffb-5696d4f1f276")
+	)
+	(fp_line
+		(start 5.7 -3)
+		(end 5.1 -3.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "561ab609-d3c7-4b70-896a-fbc3a6054e96")
+	)
+	(fp_circle
+		(center -3.5 -1.5)
+		(end -3.4 -1.5)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "52af2af8-cc9b-462c-a583-8dd967915df0")
+	)
+	(fp_poly
+		(pts
+			(xy -5.9 -5.3) (xy 5.9 -5.3) (xy 5.9 4.3) (xy -5.9 4.3)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.CrtYd")
+		(uuid "fab1604d-5baf-4d93-81c4-5f879bc17e08")
+	)
+	(fp_line
+		(start -5.6 0.9)
+		(end -5.6 2.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bae8c80a-d9de-4282-b79e-b89ab5137cb6")
+	)
+	(fp_line
+		(start -5.6 0.9)
+		(end -5 1.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "93968bb9-742c-4337-8848-9d1e8c0b7ef9")
+	)
+	(fp_line
+		(start -5.6 2.1)
+		(end -5 1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "442c3299-c5cc-4d9b-b702-25c089be0fff")
+	)
+	(fp_line
+		(start -5 -5)
+		(end -5 1.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "51e3a7df-16fb-4ea9-9f70-a82a1d3d1137")
+	)
+	(fp_line
+		(start -5 1.8)
+		(end -5 4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0f22721d-d835-472e-a4ba-0ea71ce19b8b")
+	)
+	(fp_line
+		(start -5 4)
+		(end 5 4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "149934fb-1dbe-4d54-a316-860c033710d3")
+	)
+	(fp_line
+		(start 5 -5)
+		(end -5 -5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bd898b08-6c2c-4479-ae25-9f6773614b46")
+	)
+	(fp_line
+		(start 5 -5)
+		(end 5 -4.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "30750541-f0f1-4891-a990-59d56cd571f8")
+	)
+	(fp_line
+		(start 5 -4.05)
+		(end 5.6 -4.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "71af260f-1a33-4623-8825-f3783b62cd9c")
+	)
+	(fp_line
+		(start 5 -3.35)
+		(end 5 4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2e331fbe-c719-4f1e-b432-11301b864ba4")
+	)
+	(fp_line
+		(start 5 -3.35)
+		(end 5.6 -3.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bfbead1d-3b51-44ae-b758-3b5f38981df6")
+	)
+	(fp_line
+		(start 5.6 -3.1)
+		(end 5.6 -4.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2baffb6e-ec44-4a69-87c0-37da048ed4ab")
+	)
+	(pad "1" thru_hole circle
+		(at -2.5 0)
+		(size 2.15 2.15)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "1fcd6ed7-3e05-4767-895a-05e17bf5fa2c")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 0)
+		(size 2.15 2.15)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "1304a797-4afd-4039-bb01-fa7e3f33e539")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_3DMODEL_DIR}/TerminalBlock_Wurth_Custom/691101710002.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
