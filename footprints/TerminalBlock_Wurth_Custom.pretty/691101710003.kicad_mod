@@ -4,7 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Terminal Block Wire to Board 3 Position Horizontal with Board 5.00mm Through Hole")
-	(tags "wurth terminal block")
+	(tags "wurth, terminal block, 5mm")
 	(property "Reference" "REF**"
 		(at 0 -6.435 0)
 		(layer "F.SilkS")
