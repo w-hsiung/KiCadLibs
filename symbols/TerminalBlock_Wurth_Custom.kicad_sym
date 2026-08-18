@@ -658,7 +658,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Wurth_Custom:691101710003"
+		(property "Footprint" "TerminalBlock_Wurth_Custom:691210910003"
 			(at -12.7 -16.51 0)
 			(effects
 				(font
