@@ -1,0 +1,197 @@
+(footprint "691210910003"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Terminal Block Wire to Board 3 Position Horizontal with Board 2.54mm Through Hole")
+	(tags "wurth, terminal block, 2.54mm")
+	(property "Reference" "REF**"
+		(at 0 -4.635 0)
+		(layer "F.SilkS")
+		(uuid "2c5bac2d-64ac-498e-bc02-174a7010c41b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "691210910003"
+		(at 4.12 4.865 0)
+		(layer "F.Fab")
+		(uuid "60a9ca29-fd64-4472-9cfc-c64861d9b3ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "49abc9fe-e76e-4e34-a391-1f4e39e11247")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Terminal Block Wire to Board 3 Position Horizontal with Board 2.54mm Through Hole"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "78b33870-cae5-4dbd-8a2d-860b01bbed32")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.11 -3.35)
+		(end 4.11 -3.35)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6cfe2b1c-2ca0-489a-8d67-ea66c7067206")
+	)
+	(fp_line
+		(start -4.11 3.35)
+		(end -4.11 -3.35)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f73710b1-0bb3-4f81-a284-fadc021dd077")
+	)
+	(fp_line
+		(start 4.11 -3.35)
+		(end 4.11 3.35)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f99f3237-5744-4337-a1ea-77d0cf4c882b")
+	)
+	(fp_line
+		(start 4.11 3.35)
+		(end -4.11 3.35)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ba0d184f-3886-4721-b0f8-c58b76dfddd5")
+	)
+	(fp_circle
+		(center -3.47 -1.7)
+		(end -3.37 -1.7)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d40b7c73-e7fd-4513-920a-f5b1ad8adf84")
+	)
+	(fp_poly
+		(pts
+			(xy -4.31 -3.55) (xy 4.31 -3.55) (xy 4.31 3.55) (xy -4.31 3.55)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.CrtYd")
+		(uuid "dfcbe3f4-2e13-4dd7-8fea-663fc442d162")
+	)
+	(fp_line
+		(start -4.01 -3.25)
+		(end -4.01 3.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "945606e0-3ebc-4126-8aec-21a0f56b6981")
+	)
+	(fp_line
+		(start -4.01 3.25)
+		(end 4.01 3.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a38c0a10-c1b6-4ee0-b106-612b55740456")
+	)
+	(fp_line
+		(start 4.01 -3.25)
+		(end -4.01 -3.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7e774672-c374-449f-84b8-b969417afd83")
+	)
+	(fp_line
+		(start 4.01 3.25)
+		(end 4.01 -3.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "17326fb1-e5d9-468d-9ac3-265fcc344b32")
+	)
+	(pad "1" thru_hole circle
+		(at -2.54 0)
+		(size 1.95 1.95)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "8d7c18c7-7ee3-4ee5-8d00-c73b7c657825")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 1.95 1.95)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "a454c775-3f60-4c79-9b86-a20f594463ba")
+	)
+	(pad "3" thru_hole circle
+		(at 2.54 0)
+		(size 1.95 1.95)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "bfe58fb8-9d9f-4886-92b8-82eea9f78343")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_3DMODEL_DIR}/TerminalBlock_Wurth_Custom/691210910003.stp"
+		(offset
+			(xyz 0 0 2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
