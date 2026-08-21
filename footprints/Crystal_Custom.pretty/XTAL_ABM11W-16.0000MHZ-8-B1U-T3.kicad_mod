@@ -10,7 +10,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
+				(thickness 0.16)
 			)
 		)
 	)
@@ -50,9 +50,49 @@
 		)
 	)
 	(attr smd)
+	(fp_line
+		(start -0.8 -0.09)
+		(end -0.8 0.09)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "639e849c-c8c9-44ad-8b91-e29e5cd87093")
+	)
+	(fp_line
+		(start 0 -1)
+		(end 0 -1)
+		(stroke
+			(width 0.09)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "abbeb91b-0af2-48f3-8f84-a0fd88af315d")
+	)
+	(fp_line
+		(start 0 1)
+		(end 0 1)
+		(stroke
+			(width 0.09)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "38f57bbc-6456-4e3f-a583-6e1740520261")
+	)
+	(fp_line
+		(start 0.8 -0.09)
+		(end 0.8 0.09)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "90581d11-bed6-4513-a5fb-94d57ae0907f")
+	)
 	(fp_circle
-		(center -1.625 -0.637)
-		(end -1.525 -0.637)
+		(center -1.15 -1.35)
+		(end -1.05 -1.35)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -142,8 +182,8 @@
 		(uuid "dfd1e381-d64e-42ad-8a4e-a261a173989e")
 	)
 	(fp_circle
-		(center -1.625 -0.637)
-		(end -1.525 -0.637)
+		(center -1.15 -1.35)
+		(end -1.05 -1.35)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -153,31 +193,31 @@
 		(uuid "5478739b-c6b5-471a-9840-dc39158cbc4e")
 	)
 	(pad "1" smd rect
-		(at -0.487 -0.637)
+		(at -0.488 -0.638)
 		(size 0.775 0.875)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_mask_margin 0.102)
+		(solder_mask_margin 0.05)
 		(uuid "4933c8d2-951c-41dc-b441-ed62f4d37715")
 	)
 	(pad "2" smd rect
-		(at -0.487 0.637)
+		(at -0.488 0.638)
 		(size 0.775 0.875)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_mask_margin 0.102)
+		(solder_mask_margin 0.05)
 		(uuid "56699a26-5198-4428-818c-cba1a2119948")
 	)
 	(pad "3" smd rect
-		(at 0.487 0.637)
+		(at 0.488 0.638)
 		(size 0.775 0.875)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_mask_margin 0.102)
+		(solder_mask_margin 0.05)
 		(uuid "fbd10e63-3632-44c3-bdde-59a5fe9c2fb1")
 	)
 	(pad "4" smd rect
-		(at 0.487 -0.637)
+		(at 0.488 -0.637)
 		(size 0.775 0.875)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_mask_margin 0.102)
+		(solder_mask_margin 0.05)
 		(uuid "bb0bc0ff-863a-4a7c-a8a6-1ee1e3edb291")
 	)
 	(embedded_fonts no)
