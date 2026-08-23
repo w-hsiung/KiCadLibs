@@ -3151,41 +3151,42 @@
 			)
 		)
 		(property "Footprint" "IC_Custom:SOT95P280X145-5N"
-			(at 24.13 -94.92 0)
+			(at 0 -16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/MIC5504-3.3YM5-TR.pdf"
-			(at 24.13 -194.92 0)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MIC5501-02-03-04-300mA-Single-Output-LDO-in-Small-Packages-DS20006006.pdf"
+			(at 0 -24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Description" "MICROCHIP - MIC5504-3.3YM5-TR - LDO VOLT REG, 0.3A, 3.3V, SOT-23-5"
-			(at 0 0 0)
+			(at 0 -13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Height" "1.45"
-			(at 24.13 -394.92 0)
+			(at 0 -19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3210,12 +3211,12 @@
 			)
 		)
 		(property "Manufacturer_Name" "Microchip"
-			(at 24.13 -694.92 0)
+			(at 0 -21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3241,7 +3242,7 @@
 					(type background)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 0 0 0)
 				(length 5.08)
 				(name "VIN"
@@ -3259,7 +3260,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 0 -2.54 0)
 				(length 5.08)
 				(name "GND"
@@ -3277,7 +3278,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at 0 -5.08 0)
 				(length 5.08)
 				(name "EN"
@@ -3313,7 +3314,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_out line
 				(at 22.86 -2.54 180)
 				(length 5.08)
 				(name "VOUT"
