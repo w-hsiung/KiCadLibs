@@ -14,6 +14,7 @@
 	(lib (name "Device_Resistor_Custom") (type "KiCad") (uri "${KICAD_USER_SYMBOL_DIR}/Device_Resistor_Custom.kicad_sym") (options "") (descr ""))
 	(lib (name "Driver_Motor_Custom") (type "KiCad") (uri "${KICAD_USER_SYMBOL_DIR}/Driver_Motor_Custom.kicad_sym") (options "") (descr ""))
 	(lib (name "IC_Custom") (type "KiCad") (uri "${KICAD_USER_SYMBOL_DIR}/IC_Custom.kicad_sym") (options "") (descr ""))
+	(lib (name "Interface_Expansion_Custom") (type "KiCad") (uri "${KICAD_USER_SYMBOL_DIR}/Interface_Expansion_Custom.kicad_sym") (options "") (descr ""))
 	(lib (name "Interface_UART_Custom") (type "KiCad") (uri "${KICAD_USER_SYMBOL_DIR}/Interface_UART_Custom.kicad_sym") (options "") (descr ""))
 	(lib (name "Jumper_Custom") (type "KiCad") (uri "${KICAD_USER_SYMBOL_DIR}/Jumper_Custom.kicad_sym") (options "") (descr ""))
 	(lib (name "LED_Custom") (type "KiCad") (uri "${KICAD_USER_SYMBOL_DIR}/LED_Custom.kicad_sym") (options "") (descr ""))
