@@ -17,6 +17,7 @@
 	(lib (name "MountingHole_Custom") (type "KiCad") (uri "${KICAD_USER_FOOTPRINT_DIR}/MountingHole_Custom.pretty") (options "") (descr ""))
 	(lib (name "Oscillator_Custom") (type "KiCad") (uri "${KICAD_USER_FOOTPRINT_DIR}/Oscillator_Custom.pretty") (options "") (descr ""))
 	(lib (name "Package_DIP_Special") (type "KiCad") (uri "${KICAD_USER_FOOTPRINT_DIR}/Package_DIP_Special.pretty") (options "") (descr ""))
+	(lib (name "Package_QFP_Special") (type "KiCad") (uri "${KICAD_USER_FOOTPRINT_DIR}/Package_QFP_Special.pretty") (options "") (descr ""))
 	(lib (name "Package_STM_Special") (type "KiCad") (uri "${KICAD_USER_FOOTPRINT_DIR}/Package_STM_Special.pretty") (options "") (descr ""))
 	(lib (name "Package_TO_SMD_Special") (type "KiCad") (uri "${KICAD_USER_FOOTPRINT_DIR}/Package_TO_SMD_Special.pretty") (options "") (descr ""))
 	(lib (name "Photocoupler") (type "KiCad") (uri "${KICAD_USER_FOOTPRINT_DIR}/Photocoupler.pretty") (options "") (descr ""))
