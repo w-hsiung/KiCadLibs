@@ -20,6 +20,7 @@
 	(lib (name "LED_Custom") (type "KiCad") (uri "${KICAD_USER_SYMBOL_DIR}/LED_Custom.kicad_sym") (options "") (descr ""))
 	(lib (name "MCU_Microchip_PIC18_Custom") (type "KiCad") (uri "${KICAD_USER_SYMBOL_DIR}/MCU_Microchip_PIC18_Custom.kicad_sym") (options "") (descr ""))
 	(lib (name "MCU_Microchip_PIC18_Q") (type "KiCad") (uri "${KICAD_USER_SYMBOL_DIR}/MCU_Microchip_PIC18_Q.kicad_sym") (options "") (descr ""))
+	(lib (name "Mechanical_Custom") (type "KiCad") (uri "${KICAD_USER_SYMBOL_DIR}/Mechanical_Custom.kicad_sym") (options "") (descr ""))
 	(lib (name "mikroBUS") (type "KiCad") (uri "${KICAD_USER_SYMBOL_DIR}/mikroBUS.kicad_sym") (options "") (descr ""))
 	(lib (name "Oscillator_Custom") (type "KiCad") (uri "${KICAD_USER_SYMBOL_DIR}/Oscillator_Custom.kicad_sym") (options "") (descr ""))
 	(lib (name "Photocoupler") (type "KiCad") (uri "${KICAD_USER_SYMBOL_DIR}/Photocoupler.kicad_sym") (options "") (descr ""))
