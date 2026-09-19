@@ -4,6 +4,7 @@
 	(lib (name "Capacitor_TH_Custom") (type "KiCad") (uri "${KICAD_USER_FOOTPRINT_DIR}/Capacitor_TH_Custom.pretty") (options "") (descr ""))
 	(lib (name "Component_Custom") (type "KiCad") (uri "${KICAD_USER_FOOTPRINT_DIR}/Component_Custom.pretty") (options "") (descr ""))
 	(lib (name "Connector_Custom") (type "KiCad") (uri "${KICAD_USER_FOOTPRINT_DIR}/Connector_Custom.pretty") (options "") (descr ""))
+	(lib (name "Connector_Harwin_Custom") (type "KiCad") (uri "${KICAD_USER_FOOTPRINT_DIR}/Connector_Harwin_Custom.pretty") (options "") (descr ""))
 	(lib (name "Connector_Molex_KK254") (type "KiCad") (uri "${KICAD_USER_FOOTPRINT_DIR}/Connector_Molex_KK254.pretty") (options "") (descr ""))
 	(lib (name "Connector_Molex_Custom") (type "KiCad") (uri "${KICAD_USER_FOOTPRINT_DIR}/Connector_Molex_Custom.pretty") (options "") (descr ""))
 	(lib (name "Connector_Multicomp_2.54mm") (type "KiCad") (uri "${KICAD_USER_FOOTPRINT_DIR}/Connector_Multicomp_2.54mm.pretty") (options "") (descr ""))
